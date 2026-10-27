@@ -1,0 +1,26 @@
+# Ignore all files inside data folder
+data/
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv313/
+.venv/
+
+# ChromaDB local database
+ingestion_pipeline/chroma_db/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter and editor files
+.ipynb_checkpoints/
+.vscode/
+
+# Logs
+*.log
